@@ -2,13 +2,17 @@
 
 轻量、极简且高效的 ATK 外设硬件控制与场景配置文件自动切换工具。基于 .NET 8 与 WPF 开发，无多余后台占用，即开即用。
 
+<div align="center">
+  <img src="./screenshot.png" alt="ATKLiteHub Preview" width="380" />
+</div>
+
 ---
 
 ## ✨ 核心特性
 
 - **轻量低占用**：纯原生 WPF + .NET 8 构建，去除官方驱动复杂的内嵌网页与多余服务，内存占用低。
 - **进程感知与配置自适应**：
-  - 支持绑定游戏/应用程序进程。
+  - 支持绑定游戏/应用程序进程（如 `cs2.exe`、`DeltaForceClient-Win64-Shipping.exe` 等）。
   - 启动指定游戏时自动切换到对应外设 Profile。
   - 游戏退出后自动恢复默认日常配置。
 - **悬浮动态提示**：切换 Profile 时在屏幕右上角显示无打扰动画 Toast 提示。
@@ -31,6 +35,7 @@ ATKLiteHub/
 ├── ProfileToastWindow.xaml   # 切换配置浮动提示框
 ├── StartupHelper.cs          # 开机自启配置
 ├── TrayIconHelper.cs         # 系统托盘管理
+├── screenshot.png            # 界面预览截图
 └── ATKLiteHub.csproj         # 项目工程文件 (.NET 8.0-windows)
 ```
 
