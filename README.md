@@ -141,9 +141,10 @@ ATKLiteHub/
 ## 👥 作者与协作 (Authors & Credits)
 
 - **StarCenzZ** ([@StarCenzZ](https://github.com/StarCenzZ)) - 项目发起、需求架构与设备真机调试
-- **Gemini (Antigravity)** - 结对编程助手，负责底层 HID 协议分析、WPF 界面渲染与全栈代码编写
+- **Claude (Anthropic)** - 参与早期架构设计与核心业务逻辑构建
+- **Gemini (Google DeepMind)** - 参与底层 HID 协议分析、WPF 界面渲染、工程化完善与发布
 
-> 💡 本项目全程由 **StarCenzZ** 与 **Google Antigravity (Gemini)** 人机结对编程（Pair Programming）合作开发打造。
+> 💡 本项目由 **StarCenzZ** 主导发起，并先后在 **Claude** 与 **Gemini** 的多 AI 结对编程协作下共同开发打造。
 
 ---
 
