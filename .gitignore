@@ -1,0 +1,17 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Keep publish release files
+!publish/
+!publish/**
+
+# Logs
+*.log
+
+# Visual Studio / Rider cache
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
